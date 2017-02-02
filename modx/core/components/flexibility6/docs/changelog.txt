@@ -1,0 +1,6 @@
+Changelog for Flexibility 6
+
+Version: 1.0.0-pl
+Released: 05-02-2017
+---------------------------------
+Initial Version
