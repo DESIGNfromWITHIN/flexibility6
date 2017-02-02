@@ -3,7 +3,7 @@
 /*
 'requires' => array(
     'ace' => '>=1.6.5',
-    'clientconfig' => '>=1.3.2',
+    'clientconfig' => '>=1.4.1',
     'formit' => '>=2.2.11',
     'pdotools' => '>=2.8.2',
     'imageplus' => '>=2.6.0',
@@ -386,7 +386,6 @@ $components = array(
         'Error page',
         'Site offline',
         'Not allowed',
-        'Thank you',
         'Sitemap'
     ),
     /* Array of resource parent IDs to get children of. */

@@ -1,11 +1,51 @@
 <!doctype html>
-<html class="no-js" lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-    <link rel="stylesheet" href="css/foundation.css">
-    <link rel="stylesheet" href="css/app.css">
-  </head>
-  <body>
+<html class="no-js" lang="[[++cultureKey]]" dir="ltr">
+	<head>
+		<base href="[[++site_url]]" />
+		<title>[[*longtitle:notempty=`[[*longtitle]]`:default=`[[*pagetitle]]`]] | [[++site_name]]</title>
+		<meta name="description" content="[[*description:default=`[[++flexibility6__default_description]]`]]"/>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet" href="assets/components/flexibility6/production/style.css">
+		<!-- FAVICON -->
+		<link rel="icon" href="[[++flexibility6__favicon]]">
+		<!-- SOCIAL MEDIA -->
+		<meta property="og:site_name" content="[[++site_name]]"/>
+		<meta property="og:title" content="[[*longtitle:default=`[[*pagetitle]]`]] | [[++site_name]]"/>
+		<meta property="og:url" content="[[~[[*id]]? &scheme=`full`]]"/>
+		<meta property="og:description" content="[[*description:default=`[[++flexibility6__default_description]]`]]"/>	
+		<!-- SOCIAL MEDIA image -->
+		<meta property="og:image" content="[[++flexibility6__social_image:phpthumbof=`w=1200&h=600&zc=1&q=85&f=jpg`]]" />
+		<meta property="og:image:type" content="image/jpg" />
+		<meta property="og:image:width" content="1200" />
+		<meta property="og:image:height" content="630" />
+		<!-- SOCIAL MEDIA Twitter cards-->
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:site" content="[[++flexibility6__twitter_id]]">
+		<meta name="twitter:title" content="[[*longtitle:notempty=`[[*longtitle]]`:default=`[[*pagetitle]]`]]" />
+		<meta name="twitter:description" content="[[*description:default=`[[++flexibility6__default_description]]`]]">
+		<meta name="twitter:image" content="[[++flexibility6__social_image:phpthumbof=`w=560&h=300&zc=1&q=85`]]" />
+		<meta name="twitter:url" content="[[~[[*id]]? &scheme=`full`]]" />
+	</head>
+	<body>
+		<header>
+			<div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="large">
+				<button class="menu-icon" type="button" data-toggle="example-menu"></button>
+				<div class="title-bar-title">Menu</div>
+			</div>
+			<div class="top-bar" id="example-menu">
+				<div class="top-bar-left">
+					<ul class="dropdown menu" data-responsive-menu="drilldown medium-dropdown">
+						<li class="menu-text">[[++site_name]]</li>
+						[[pdoMenu?
+			                &parents=`0`
+			                &level=`0`
+			                &tplOuter=`@INLINE [[+wrapper]]`
+			                &tplInner=`@INLINE <ul class="[[+classnames]] menu vertical">[[+wrapper]]</ul>`
+			                &tplParentRow=`@INLINE <li class="[[+classnames]]"><a href="[[+link]]" [[+attributes]]>[[+menutitle:notempty=`[[+menutitle]]`:default=`[[+pagetitle]]`]]</a>[[+wrapper]]</li>`
+			            ]]
+					</ul>
+				</div>
+			</div>
+		</header>
