@@ -12,6 +12,166 @@
       'assets_path' => '{assets_path}components/imageplus/',
     ),
   ),
+  '1033e2db164e9a21850879dda2ee517f' => 
+  array (
+    'criteria' => 
+    array (
+      'key' => 'imageplus.debug',
+    ),
+    'object' => 
+    array (
+      'key' => 'imageplus.debug',
+      'value' => '0',
+      'xtype' => 'combo-boolean',
+      'namespace' => 'imageplus',
+      'area' => 'system',
+      'editedon' => '0000-00-00 00:00:00',
+    ),
+  ),
+  '8504c5764d7e6fc1f402a5477c4eefc8' => 
+  array (
+    'criteria' => 
+    array (
+      'key' => 'imageplus.target_width',
+    ),
+    'object' => 
+    array (
+      'key' => 'imageplus.target_width',
+      'value' => '',
+      'xtype' => 'textfield',
+      'namespace' => 'imageplus',
+      'area' => 'imageplus',
+      'editedon' => '0000-00-00 00:00:00',
+    ),
+  ),
+  '3633e01529766892e6381c94a25a86d4' => 
+  array (
+    'criteria' => 
+    array (
+      'key' => 'imageplus.target_height',
+    ),
+    'object' => 
+    array (
+      'key' => 'imageplus.target_height',
+      'value' => '',
+      'xtype' => 'textfield',
+      'namespace' => 'imageplus',
+      'area' => 'imageplus',
+      'editedon' => '0000-00-00 00:00:00',
+    ),
+  ),
+  '5421a52c2c8e88f33a21ece6b77e5ef5' => 
+  array (
+    'criteria' => 
+    array (
+      'key' => 'imageplus.target_ratio',
+    ),
+    'object' => 
+    array (
+      'key' => 'imageplus.target_ratio',
+      'value' => '',
+      'xtype' => 'textfield',
+      'namespace' => 'imageplus',
+      'area' => 'imageplus',
+      'editedon' => '0000-00-00 00:00:00',
+    ),
+  ),
+  '3f86722cc864d90011825b4b1b3bb379' => 
+  array (
+    'criteria' => 
+    array (
+      'key' => 'imageplus.thumbnail_width',
+    ),
+    'object' => 
+    array (
+      'key' => 'imageplus.thumbnail_width',
+      'value' => '',
+      'xtype' => 'textfield',
+      'namespace' => 'imageplus',
+      'area' => 'imageplus',
+      'editedon' => '0000-00-00 00:00:00',
+    ),
+  ),
+  '8c788cb94c7027b5f48735d0be772280' => 
+  array (
+    'criteria' => 
+    array (
+      'key' => 'imageplus.allow_alt_tag',
+    ),
+    'object' => 
+    array (
+      'key' => 'imageplus.allow_alt_tag',
+      'value' => '0',
+      'xtype' => 'combo-boolean',
+      'namespace' => 'imageplus',
+      'area' => 'imageplus',
+      'editedon' => '0000-00-00 00:00:00',
+    ),
+  ),
+  '66ace561e5fd5cb9702489ab7d326b1c' => 
+  array (
+    'criteria' => 
+    array (
+      'key' => 'imageplus.allow_caption',
+    ),
+    'object' => 
+    array (
+      'key' => 'imageplus.allow_caption',
+      'value' => '0',
+      'xtype' => 'combo-boolean',
+      'namespace' => 'imageplus',
+      'area' => 'imageplus',
+      'editedon' => '0000-00-00 00:00:00',
+    ),
+  ),
+  '083884501ea2308fdf7865cd65dd0ed2' => 
+  array (
+    'criteria' => 
+    array (
+      'key' => 'imageplus.allow_credits',
+    ),
+    'object' => 
+    array (
+      'key' => 'imageplus.allow_credits',
+      'value' => '0',
+      'xtype' => 'combo-boolean',
+      'namespace' => 'imageplus',
+      'area' => 'imageplus',
+      'editedon' => '0000-00-00 00:00:00',
+    ),
+  ),
+  '6b8a7308ee541be5b477ca0f68868ec5' => 
+  array (
+    'criteria' => 
+    array (
+      'key' => 'imageplus.select_config',
+    ),
+    'object' => 
+    array (
+      'key' => 'imageplus.select_config',
+      'value' => '[]',
+      'xtype' => 'sizes-ratio-grid',
+      'namespace' => 'imageplus',
+      'area' => 'imageplus',
+      'editedon' => '0000-00-00 00:00:00',
+    ),
+  ),
+  '125694de21b8b888aecabaa95b521f8e' => 
+  array (
+    'criteria' => 
+    array (
+      'key' => 'imageplus.force_config',
+    ),
+    'object' => 
+    array (
+      'key' => 'imageplus.force_config',
+      'value' => '0',
+      'xtype' => 'combo-boolean',
+      'namespace' => 'imageplus',
+      'area' => 'imageplus',
+      'editedon' => '0000-00-00 00:00:00',
+    ),
+  ),
   '7c150192154a4c59deab386c24c52614' => 
   array (
     'criteria' => 
