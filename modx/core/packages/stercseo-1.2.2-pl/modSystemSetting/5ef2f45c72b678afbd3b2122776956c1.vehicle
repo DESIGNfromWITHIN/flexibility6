@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'stercseo',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '1a368d7c99be73ca4be75d2ee91f08a9',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '5ef2f45c72b678afbd3b2122776956c1',
+  'native_key' => 'stercseo.allowed_contexts',
+  'object' => '{"key":"stercseo.allowed_contexts","value":"","xtype":"textfield","namespace":"stercseo","area":"general","editedon":null,"description":"Leave empty to enable on all contexts. Comma delimited context keys for only enable for that contexts."}',
+);

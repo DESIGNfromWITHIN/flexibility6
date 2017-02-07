@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'imageplus',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '3f86722cc864d90011825b4b1b3bb379',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '28ed2ae630e3d49be35eab234c06b78e',
+  'native_key' => 'imageplus.thumbnail_width',
+  'object' => '{"key":"imageplus.thumbnail_width","value":"","xtype":"textfield","namespace":"imageplus","area":"imageplus","editedon":null}',
+);

@@ -1,0 +1,9 @@
+modx/.htaccess
+modx/config.core.php
+modx/core/model/*
+modx/core/cache/*
+modx/core/config/config.inc.php
+modx/manager/config.core.php
+modx/connectors/config.core.php
+modx/.DS_Store
+modx/assets/components/flexibility6/node_modules/*

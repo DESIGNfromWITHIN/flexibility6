@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'imageplus',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '5421a52c2c8e88f33a21ece6b77e5ef5',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '51bc084f0a105b72bf654b5ba27dd2e0',
+  'native_key' => 'imageplus.target_ratio',
+  'object' => '{"key":"imageplus.target_ratio","value":"","xtype":"textfield","namespace":"imageplus","area":"imageplus","editedon":null}',
+);
