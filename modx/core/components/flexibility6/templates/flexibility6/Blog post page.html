@@ -1,0 +1,34 @@
+[[$flexibility6__header]]
+    <div class="row">
+      <div class="large-12 columns">
+      	<article>
+      		[[*flexibility6__blog__overview_image:notempty=`
+			<picture>
+				<source srcset="
+					[[ImagePlus?
+						&tvname=`flexibility6__blog__overview_image` 
+						&options=`w=1000` 
+						&type=`thumb` 
+					]] 2x,
+					[[ImagePlus?
+						&tvname=`flexibility6__blog__overview_image` 
+						&options=`w=500` 
+						&type=`thumb` 
+					]] 1x
+				" />
+				<img src="
+					[[ImagePlus?
+						&tvname=`flexibility6__blog__overview_image` 
+						&options=`w=500` 
+						&type=`thumb` 
+					]]
+				" alt="[[*longtitle:empty=`[[*pagetitle]]`]]" />
+			</picture>
+			`]]
+			<h1>[[*longtitle:default=`[[*pagetitle]]`]]</h1>
+			<p><time datetime="[[*publishedon:strtotime:date=`%Y-%m-%d`]]">[[*publishedon:strtotime:date=`%B %d %Y`]]</time></p>
+			[[*content]]
+		</article>
+      </div>
+    </div>
+[[$flexibility6__footer]]

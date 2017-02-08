@@ -10,7 +10,9 @@
     'seopro' => '>=1.0.4',
     'simplesearch' => '>=1.9.2',
     'stercseo' => '>=1.2.0',
-    'tinymcerte' => '>=1.1.1'
+    'tinymcerte' => '>=1.1.1',
+    'collections' => '>=3.6.0',
+    'getpage' => '>=1.2.4'
 ),
 */
 
@@ -113,6 +115,10 @@ $components = array(
             'category' => 'flexibility6',
             'parent' => '',  /* top level category */
         ),
+        'Blog' => array(
+            'category' => 'Blog',
+            'parent' => 'flexibility6', /* nested under flexibility6 */
+        ),
         'Contact' => array(
             'category' => 'Contact',
             'parent' => 'flexibility6', /* nested under flexibility6 */
@@ -193,12 +199,12 @@ $components = array(
 
     'assetsDirs' => array(),
     /* minify any JS files */
-    'minifyJS' => true,
+    'minifyJS' => false,
     /* Create a single JS file from all JS files */
-    'createJSMinAll' => true,
+    'createJSMinAll' => false,
     /* if this is false, regular jsmin will be used.
        JSMinPlus is slower but more reliable */
-    'useJSMinPlus' => true,
+    'useJSMinPlus' => false,
 
     /* These will automatically go under assets/components/yourcomponent/js/
        Format: directory:filename
@@ -381,6 +387,8 @@ $components = array(
     'exportResources' => array(
         'Home',
         'Features',
+        'About',
+        'Blog',
         'Contact',
         'Search results',
         'Error page',

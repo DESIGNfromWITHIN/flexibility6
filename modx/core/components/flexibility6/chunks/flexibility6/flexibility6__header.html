@@ -41,9 +41,11 @@
 						[[pdoMenu?
 			                &parents=`0`
 			                &level=`0`
+			                &sortdir=`ASC`
+				    		&sortby=`menuindex`
 			                &tplOuter=`@INLINE [[+wrapper]]`
-			                &tplInner=`@INLINE <ul class="[[+classnames]] menu vertical">[[+wrapper]]</ul>`
-			                &tplParentRow=`@INLINE <li class="[[+classnames]]"><a href="[[+link]]" [[+attributes]]>[[+menutitle:notempty=`[[+menutitle]]`:default=`[[+pagetitle]]`]]</a>[[+wrapper]]</li>`
+			                &tplInner=`flexibility6__menu__inner`
+			                &tplParentRow=`flexibility6__menu__parent_row`
 			            ]]
 					</ul>
 				</div>
