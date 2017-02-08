@@ -1,0 +1,32 @@
+[[$flexibility6__header]]
+    <div class="row">
+    	<div class="large-12 columns">
+        	[[*content]]
+		</div>
+	</div>
+	<div class="row">
+		[[!getPage@Flexibility6PropertySet?
+			&elementClass=`modSnippet`
+			&element=`pdoResources`
+			&parents=`[[*id]]`
+			&depth=`1`
+			&limit=`5`
+			&pageVarKey=`page`
+			&includeTVs=`flexibility6__blog__overview_image`
+			&prepareTVs=`1`
+			&processTVs=`1`
+			&tvPrefix=``
+			&includeContent=`0`
+			&tpl=`flexibility6__blog__tpl`
+		]]
+    </div>
+    <div class="row">
+    	<div class="large-12 columns">
+    		<div class="paging">
+				<ul class="pagination" role="navigation" aria-label="Pagination">
+					[[!+page.nav]]
+				</ul>
+			</div>
+    	</div>
+    </div>
+[[$flexibility6__footer]]
