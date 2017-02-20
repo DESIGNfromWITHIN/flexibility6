@@ -4,12 +4,12 @@
  */
 $database_type = 'mysql';
 $database_server = 'localhost';
-$database_user = 'flexibility6mpth_modx';
+$database_user = 'flexibility6anys_modx';
 $database_password = 'Tha828282Clown';
 $database_connection_charset = 'utf8';
-$dbase = 'flexibility6mpth_modx';
+$dbase = 'flexibility6anys_modx';
 $table_prefix = 'modx_';
-$database_dsn = 'mysql:host=localhost;dbname=flexibility6mpth_modx;charset=utf8';
+$database_dsn = 'mysql:host=localhost;dbname=flexibility6anys_modx;charset=utf8';
 $config_options = array (
 );
 $driver_options = array (
@@ -23,27 +23,27 @@ $https_port = '443';
 $uuid = '92ed1b42-b732-4475-b494-742e1b9c9443';
 
 if (!defined('MODX_CORE_PATH')) {
-    $modx_core_path= '/home/flexibility6mpth/public_html/core/';
+    $modx_core_path= '/home/flexibility6anys/public_html/core/';
     define('MODX_CORE_PATH', $modx_core_path);
 }
 if (!defined('MODX_PROCESSORS_PATH')) {
-    $modx_processors_path= '/home/flexibility6mpth/public_html/core/model/modx/processors/';
+    $modx_processors_path= '/home/flexibility6anys/public_html/core/model/modx/processors/';
     define('MODX_PROCESSORS_PATH', $modx_processors_path);
 }
 if (!defined('MODX_CONNECTORS_PATH')) {
-    $modx_connectors_path= '/home/flexibility6mpth/public_html/connectors/';
+    $modx_connectors_path= '/home/flexibility6anys/public_html/connectors/';
     $modx_connectors_url= '/connectors/';
     define('MODX_CONNECTORS_PATH', $modx_connectors_path);
     define('MODX_CONNECTORS_URL', $modx_connectors_url);
 }
 if (!defined('MODX_MANAGER_PATH')) {
-    $modx_manager_path= '/home/flexibility6mpth/public_html/manager/';
+    $modx_manager_path= '/home/flexibility6anys/public_html/manager/';
     $modx_manager_url= '/manager/';
     define('MODX_MANAGER_PATH', $modx_manager_path);
     define('MODX_MANAGER_URL', $modx_manager_url);
 }
 if (!defined('MODX_BASE_PATH')) {
-    $modx_base_path= '/home/flexibility6mpth/public_html/';
+    $modx_base_path= '/home/flexibility6anys/public_html/';
     $modx_base_url= '/';
     define('MODX_BASE_PATH', $modx_base_path);
     define('MODX_BASE_URL', $modx_base_url);
@@ -59,10 +59,10 @@ if (!defined('MODX_URL_SCHEME')) {
 }
 if (!defined('MODX_HTTP_HOST')) {
     if(defined('PHP_SAPI') && (PHP_SAPI == "cli" || PHP_SAPI == "embed")) {
-        $http_host='flexibility6.mpthemes.com';
+        $http_host='flexibility6.anyscreensize.com';
         define('MODX_HTTP_HOST', $http_host);
     } else {
-        $http_host= array_key_exists('HTTP_HOST', $_SERVER) ? $_SERVER['HTTP_HOST'] : 'flexibility6.mpthemes.com';
+        $http_host= array_key_exists('HTTP_HOST', $_SERVER) ? $_SERVER['HTTP_HOST'] : 'flexibility6.anyscreensize.com';
         if ($_SERVER['SERVER_PORT'] != 80) {
             $http_host= str_replace(':' . $_SERVER['SERVER_PORT'], '', $http_host); // remove port from HTTP_HOST
         }
@@ -75,7 +75,7 @@ if (!defined('MODX_SITE_URL')) {
     define('MODX_SITE_URL', $site_url);
 }
 if (!defined('MODX_ASSETS_PATH')) {
-    $modx_assets_path= '/home/flexibility6mpth/public_html/assets/';
+    $modx_assets_path= '/home/flexibility6anys/public_html/assets/';
     $modx_assets_url= '/assets/';
     define('MODX_ASSETS_PATH', $modx_assets_path);
     define('MODX_ASSETS_URL', $modx_assets_url);
